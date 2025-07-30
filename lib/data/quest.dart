@@ -1,4 +1,4 @@
-import 'package:quizapp/model/optionButton.dart';
+import 'package:quizapp/model/optionbutton.dart';
 
 const questions = [
   QuizQuestion('What are the main building blocks of Flutter UIs?', [

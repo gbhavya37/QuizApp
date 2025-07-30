@@ -43,3 +43,18 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Ignore everything
+/*
+
+# But keep pubspec.yaml
+!pubspec.yaml
+
+# Keep lib and its contents
+!lib/
+!lib/**
+
+# Keep assets and its contents
+!assets/
+!assets/**
+
